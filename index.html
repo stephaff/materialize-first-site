@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Document</title>
+    <style>
+        header{
+            background-image: url('header.jpeg');
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+        .tabs .tab a:focus, .tabs .tab a:focus.active{
+            background-color: transparent;
+        }
+        .parallax-container{
+            height: 200px;
+        }
+        @media screen and (max-width: 670px) {
+            header{
+                min-height: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+       <nav class="nav-wrapper transparent">
+        <div class="container">
+            <a href="" class="brand-logo">Steph</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="" class="btn-floating btn-small transparent tooltipped" data-tooltip="Go to instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="btn-floating btn-small transparent tooltipped" data-tooltip="Go to facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="btn-floating btn-small transparent tooltipped" data-tooltip="Go to twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="sidenav" id="mobile-links">
+                <li><a href="">Photos</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+       </nav> 
+    </header>
+
+    <!-- Photos -->
+    <section class="container section scrollspy" id="photos">
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="header.jpeg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h3>Partie 1</h3>
+                <p>Lorem ipsum dolor sit amet amet consectetur adipisicing elit. Doloremque</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1">
+                <img src="header.jpeg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l4 offset-l1">
+                <h3>Partie 2</h3>
+                <p>Lorem ipsum dolor sit amet amet consectetur adipisicing elit. Doloremque</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="header.jpeg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h3>Partie 3</h3>
+                <p>Lorem ipsum dolor sit amet amet consectetur adipisicing elit. Doloremque</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="parallax.jpeg" alt="" >
+        </div>
+    </div>
+
+    <!-- tabs -->
+    <section class="container section scrollspy" id="services">
+        <div class="row">
+           <div class="col s12 l4">
+            <h4>Qoui de neuf ...</h4>
+            <p>*Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, tenetur voluptate? Nobis ipsam dolorem perspiciatis molestiae, sed iusto commodi quibusdam nesciunt expedita facilis. Odit voluptates eos cum quam nulla rerum.</p>
+           </div> 
+           <div class="col s12 l6 offset-l2">
+            <ul class="tabs">
+                <li class="tab col s6">
+                    <a href="#photo">Photo</a>
+                </li>
+                <li class="tab col s6">
+                    <a href="#service">services</a>
+                </li>
+            </ul>
+            <div class="col s12" id="photo">
+                <p>le hcyttytfty bhftdssr njugiugyftdrdes jhiuguiguygyfy jnbjgcrsezqeslkoji hcgtrtdtreserqe gfrsezqzqgbhyuxrzzq</p>
+            </div>
+            <div class="col s12" id="service">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium facere illo eos error vel blanditiis, atque temporibus incidunt consequuntur sit eius architecto minus quae, qui officia esse nihil tempore sapiente?</p>
+            </div>
+           </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="parallax.jpeg" alt="" >
+        </div>
+    </div> 
+
+    <!-- contact form -->
+    <section class="container section scrollspy" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h4>On y va</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quod aperiam nesciunt ab? Ab atque
+                    eligendi porro, recusandae corporis totam saepe voluptates, quod quidem dolorum illum, suscipit
+                    adipisci voluptatibus doloribus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quidem aperiam blanditiis
+                    voluptatum unde itaque sit, assumenda nulla minima dolorem? Explicabo libero unde quisquam! Vel quam
+                    consequatur explicabo odio inventore.</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form>
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="text" id="email">
+                        <label for="email">email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea id="message" class="materialize-textarea"></textarea>
+                        <label for="message">message</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" class="datepicker" id="date">
+                        <label for="date">Chosir une date</label>
+                    </div>
+                    <div class="input-field">
+                        <p>Service required</p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Photo</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Service</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- page footer -->
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>About me</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium explicabo nulla at suscipit repudiandae aperiam. Quam ullam laboriosam perferendis quibusdam dolor omnis incidunt magnam nostrum ad dolore? Pariatur, dicta dolor.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem dolore quasi illum aliquid exercitationem ex velit aspernatur doloribus perferendis, saepe obcaecati tenetur quae, iure fuga debitis? Perferendis maiores ducimus fugit?</p>
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5>Contact us</h5>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Linked In</a></li>
+                        <li><a href="#">Whatsapp</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="grey darken-4 center-align">
+            <p>&copy; 2023 Steph photo</p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.datepicker').datepicker({
+                disableWeekends: true
+            }
+            );
+            $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+</html>
